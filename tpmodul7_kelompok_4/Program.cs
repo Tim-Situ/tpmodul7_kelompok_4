@@ -1,5 +1,5 @@
 ﻿/* 
- 
+
 KELOMPOK 4 (TIM SITU)
 
 ANGOTA:
@@ -17,6 +17,17 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        // Kode Dias
+        DataMahasiswa1302223134 mahasiswa = new DataMahasiswa1302223134();
+        mahasiswa.ReadJSON();
+
+        Console.WriteLine();
+
+        KuliahMahasiswa1302223134 course = new KuliahMahasiswa1302223134();
+        course.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+
         // KODE HAULUL
         DataMahasiswa1302223007 mahasiswa1302223007 = new DataMahasiswa1302223007();
         mahasiswa1302223007.ReadJSON();
