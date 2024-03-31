@@ -37,6 +37,4 @@ internal class Program
         KuliahMahasiswa1302223127 course1302223127 = new KuliahMahasiswa1302223127();
         course1302223127.ReadJSON();
     }
-
-
 }
