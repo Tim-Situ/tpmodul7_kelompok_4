@@ -17,6 +17,15 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        // Kode Shodiq
+        DataMahasiswa1302223054 DataMahasiswa1302223054 = new DataMahasiswa1302223054();
+        DataMahasiswa1302223054.ReadJSON();
+
+        KuliahMahasiswa1302223054 KuliahMahasiswa1302223054 = new KuliahMahasiswa1302223054();
+        KuliahMahasiswa1302223054.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+      
         // Kode Dias
         DataMahasiswa1302223134 mahasiswa1302223134 = new DataMahasiswa1302223134();
         mahasiswa1302223134.ReadJSON();
