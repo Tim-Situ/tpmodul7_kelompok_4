@@ -1,5 +1,5 @@
 ﻿/* 
- 
+
 KELOMPOK 4 (TIM SITU)
 
 ANGOTA:
@@ -17,11 +17,44 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        DataMahasiswa1302223054 DataMahasiswa = new DataMahasiswa1302223054();
-        DataMahasiswa.ReadJSON();
+        // Kode Shodiq
+        DataMahasiswa1302223054 DataMahasiswa1302223054 = new DataMahasiswa1302223054();
+        DataMahasiswa1302223054.ReadJSON();
 
-        KuliahMahasiswa1302223054 KuliahMahasiswa = new KuliahMahasiswa1302223054();
-        KuliahMahasiswa.ReadJSON();
+        KuliahMahasiswa1302223054 KuliahMahasiswa1302223054 = new KuliahMahasiswa1302223054();
+        KuliahMahasiswa1302223054.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+      
+        // Kode Dias
+        DataMahasiswa1302223134 mahasiswa1302223134 = new DataMahasiswa1302223134();
+        mahasiswa1302223134.ReadJSON();
+
+        Console.WriteLine();
+
+        KuliahMahasiswa1302223134 course1302223134 = new KuliahMahasiswa1302223134();
+        course1302223134.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+
+        // KODE HAULUL
+        DataMahasiswa1302223007 mahasiswa1302223007 = new DataMahasiswa1302223007();
+        mahasiswa1302223007.ReadJSON();
+
+        Console.WriteLine();
+
+        KuliahMahasiswa1302223007 course1302223007 = new KuliahMahasiswa1302223007();
+        course1302223007.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+
+        // KODE FAUZEIN
+        DataMahasiswa1302223127 mahasiswa1302223127 = new DataMahasiswa1302223127();
+        mahasiswa1302223127.ReadJSON();
+
+        Console.WriteLine("");
+
+        KuliahMahasiswa1302223127 course1302223127 = new KuliahMahasiswa1302223127();
+        course1302223127.ReadJSON();
     }
 }
