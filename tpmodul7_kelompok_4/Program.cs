@@ -1,5 +1,5 @@
 ﻿/* 
- 
+
 KELOMPOK 4 (TIM SITU)
 
 ANGOTA:
@@ -17,7 +17,15 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        MyJSON myJson = new MyJSON();
-        myJson.ReadJSON();
+        DataMahasiswa1302223134 mahasiswa = new DataMahasiswa1302223134();
+        mahasiswa.ReadJSON();
+
+        Console.WriteLine();
+
+        KuliahMahasiswa1302223134 course = new KuliahMahasiswa1302223134();
+        course.ReadJSON();
+
     }
+
+
 }
