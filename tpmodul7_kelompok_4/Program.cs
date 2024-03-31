@@ -17,20 +17,24 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        DataMahasiswa1302223042 mahasiswa = new DataMahasiswa1302223042();
-        mahasiswa.ReadJSON();
-
-        KuliahMahasiswa1302223042 kuliah = new KuliahMahasiswa1302223042();
-        kuliah.ReadJSON();
-
-        DataMahasiswa1302223127 mahasiswa = new DataMahasiswa1302223127();
-        mahasiswa.ReadJSON();
+        // KODE HAULUL
+        DataMahasiswa1302223007 mahasiswa1302223007 = new DataMahasiswa1302223007();
+        mahasiswa1302223007.ReadJSON();
 
         Console.WriteLine();
 
-        KuliahMahasiswa1302223127 course = new KuliahMahasiswa1302223127();
-        course.ReadJSON();
+        KuliahMahasiswa1302223007 course1302223007 = new KuliahMahasiswa1302223007();
+        course1302223007.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+
+        // KODE FAUZEIN
+        DataMahasiswa1302223127 mahasiswa1302223127 = new DataMahasiswa1302223127();
+        mahasiswa1302223127.ReadJSON();
+
+        Console.WriteLine("");
+
+        KuliahMahasiswa1302223127 course1302223127 = new KuliahMahasiswa1302223127();
+        course1302223127.ReadJSON();
     }
-
-
 }
