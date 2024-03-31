@@ -17,6 +17,12 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        DataMahasiswa1302223042 mahasiswa = new DataMahasiswa1302223042();
+        mahasiswa.ReadJSON();
+
+        KuliahMahasiswa1302223042 kuliah = new KuliahMahasiswa1302223042();
+        kuliah.ReadJSON();
+
         DataMahasiswa1302223127 mahasiswa = new DataMahasiswa1302223127();
         mahasiswa.ReadJSON();
 
@@ -24,7 +30,6 @@ internal class Program
 
         KuliahMahasiswa1302223127 course = new KuliahMahasiswa1302223127();
         course.ReadJSON();
-
     }
 
 
