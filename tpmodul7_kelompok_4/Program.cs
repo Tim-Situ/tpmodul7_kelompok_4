@@ -19,5 +19,9 @@ internal class Program
     {
         DataMahasiswa1302223042 mahasiswa = new DataMahasiswa1302223042();
         mahasiswa.ReadJSON();
+
+        KuliahMahasiswa1302223042 kuliah = new KuliahMahasiswa1302223042();
+        kuliah.ReadJSON();
+
     }
 }
