@@ -17,7 +17,7 @@ public class DataMahasiswa1302223042
 
     public void ReadJSON()
     {
-        string filepath = "C:/Users/iksan/source/repos/tpmodul7_kelompok_4/tpmodul7_kelompok_4/json/tp7_1_1302223042.json";
+        string filepath = "../../../json/tp7_1_1302223042.json";
         //Baca file Json yang diinginkan
         string jsonString = File.ReadAllText(filepath);
         //Deserialize file json menjadi object

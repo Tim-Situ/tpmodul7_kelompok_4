@@ -56,5 +56,14 @@ internal class Program
 
         KuliahMahasiswa1302223127 course1302223127 = new KuliahMahasiswa1302223127();
         course1302223127.ReadJSON();
+
+        Console.WriteLine("\n==========\n");
+
+        // KODE IKSAN
+        DataMahasiswa1302223042 mahasiswa1302223042 = new DataMahasiswa1302223042();
+        mahasiswa1302223042.ReadJSON();
+
+        KuliahMahasiswa1302223042 kuliah1302223042 = new KuliahMahasiswa1302223042();
+        kuliah1302223042.ReadJSON();
     }
 }

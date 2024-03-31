@@ -14,7 +14,7 @@ namespace tpmodul7_kelompok_4
 
         public void ReadJSON()
         {
-            String jsonString = File.ReadAllText("C:/Users/iksan/source/repos/tpmodul7_kelompok_4/tpmodul7_kelompok_4/json/tp7_2_1302223042.json");
+            String jsonString = File.ReadAllText("../../../json/tp7_2_1302223042.json");
 
             KuliahMahasiswa1302223042 dataJson = JsonSerializer.Deserialize<KuliahMahasiswa1302223042>(jsonString);
 
