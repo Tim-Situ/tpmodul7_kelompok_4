@@ -18,7 +18,10 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        MyJSON myjson = new MyJSON();
-        myjson.ReadJSON();
+        DataMahasiswa1302223054 DataMahasiswa = new DataMahasiswa1302223054();
+        DataMahasiswa.ReadJSON();
+
+        KuliahMahasiswa1302223054 KuliahMahasiswa = new KuliahMahasiswa1302223054();
+        KuliahMahasiswa.ReadJSON();
     }
 }

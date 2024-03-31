@@ -18,10 +18,7 @@ namespace tpmodul7_kelompok_4
         public Nama nama { get; set; }
         public int nim { get; set; }
         public string fakultas { get; set; }
-    }
-
-    public class MyJSON
-    {
+    
         // private string filepath = "C:/Praktikum/KPL/tpmodul7_kelompok_4/tp7_1_1302223054.json";
         private string filepath = "../../../../tp7_1_1302223054.json";
         public void ReadJSON()
