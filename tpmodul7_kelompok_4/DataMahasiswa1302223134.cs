@@ -2,7 +2,7 @@
 
 namespace tpmodul7_kelompok_4
 {
-    public class Nama
+    public class Nama1302223134
     {
         public string depan { get; set; }
         public string belakang { get; set; }
@@ -10,7 +10,7 @@ namespace tpmodul7_kelompok_4
 
     public class DataMahasiswa1302223134
     {
-        public Nama nama { get; set; }
+        public Nama1302223134 nama { get; set; }
         public int nim { get; set; }
         public String fakultas { get; set; }
 

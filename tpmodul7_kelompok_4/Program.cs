@@ -18,13 +18,13 @@ internal class Program
     private static void Main(string[] args)
     {
         // Kode Dias
-        DataMahasiswa1302223134 mahasiswa = new DataMahasiswa1302223134();
-        mahasiswa.ReadJSON();
+        DataMahasiswa1302223134 mahasiswa1302223134 = new DataMahasiswa1302223134();
+        mahasiswa1302223134.ReadJSON();
 
         Console.WriteLine();
 
-        KuliahMahasiswa1302223134 course = new KuliahMahasiswa1302223134();
-        course.ReadJSON();
+        KuliahMahasiswa1302223134 course1302223134 = new KuliahMahasiswa1302223134();
+        course1302223134.ReadJSON();
 
         Console.WriteLine("\n==========\n");
 

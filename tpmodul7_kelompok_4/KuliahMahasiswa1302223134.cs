@@ -2,7 +2,7 @@
 
 namespace tpmodul7_kelompok_4
 {
-    public class Courses
+    public class Courses1302223134
     {
         public String code { get; set; }
         public String name { get; set; }
@@ -10,7 +10,7 @@ namespace tpmodul7_kelompok_4
 
     public class KuliahMahasiswa1302223134
     {
-        public List<Courses> courses { get; set; }
+        public List<Courses1302223134> courses { get; set; }
 
         public void ReadJSON()
         {
