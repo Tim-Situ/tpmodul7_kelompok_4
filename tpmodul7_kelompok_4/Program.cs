@@ -11,10 +11,13 @@ Muhammad Nur Shodiq / 1302223054
 
 */
 
+using tpmodul7_kelompok_4;
+
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        DataMahasiswa1302223042 mahasiswa = new DataMahasiswa1302223042();
+        mahasiswa.ReadJSON();
     }
 }
